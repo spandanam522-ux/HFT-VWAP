@@ -26,6 +26,7 @@ jobs:
       - name: Install tools
         run: pip install yfinance pandas numpy requests
 
+  
       - name: Check for a new signal
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
